@@ -1,0 +1,135 @@
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+
+
+
+.boxeu {
+  background-color: lightgrey;
+  width: 200px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 2px;
+}
+
+.ban{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bandos{
+  width: 100%;
+  height: 25vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lanav{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 120px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.lanav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.lanav ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.lanav ul li::after{
+  content: '';
+  height: 3px;
+  weight: 100%;
+  background-color: crimson;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0,5s;
+}
+
+.lanav ul li:hover::after{
+  width: 100%;
+}
+
+.texteaccueil{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.texteaccueil h1{
+  font-size: 80px;
+  margin-top: 80px;
+  font-weight: 700;
+}
+
+.texteaccueil p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.ledropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.ledropdown:hover .dropdown-content {display: block;}
+
+.ledropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.listedecr {
+  font-size: 40px;
+  font-weight: bold;
+  color: #444444;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  
+}
