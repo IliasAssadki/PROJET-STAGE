@@ -1,5 +1,17 @@
-# AP-STAGE
-Projet CRUD de fin de première année de BTS SIO. Site web de compte rendus, ou il est possible de créer, consulter, modifier et supprimer ses compte rendus journaliers de STAGE. 
-Ceci est la version localhost du site.
+# ap-stage
+
+### Description
+Site permettant aux élèves de ma promo de première année de BTS de créer, consulter, modifier et supprimer ses compte rendus journaliers de STAGE. 
+
+### Technologies & Frameworks
+- Architecture : MVC
+- Langages : PHP, HTML, CSS, JS
+- Base de données : SQL (MySQL)
+
+<!-- ### UML/Merise et/ou conception de la base de données** -->
+<!-- - Montrer les diagrammes et autres -->
+
+### Démonstration
+video...
 
 
