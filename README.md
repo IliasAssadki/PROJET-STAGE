@@ -1,7 +1,7 @@
 # ap-stage
 
 ### Description
-Site permettant aux élèves de ma promo de première année de BTS de créer, consulter, modifier et supprimer ses compte rendus journaliers de STAGE. 
+Site permettant aux élèves de ma promo de première année de BTS de créer, consulter, modifier et supprimer ses compte rendus journaliers de STAGE. Projet fait en groupe de 3 
 
 ### Technologies & Frameworks
 - Architecture : `MVC`
