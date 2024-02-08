@@ -12,7 +12,7 @@ Site permettant aux élèves de ma promo de première année de BTS de créer, c
 <!-- - Montrer les diagrammes et autres -->
 
 ### Démonstration
-video...
+(video en cours de création...)
 
 ### Lien du projet
 Lien du site web : pas encore en production
